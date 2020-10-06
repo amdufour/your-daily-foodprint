@@ -1941,12 +1941,17 @@ footer .footer-bottom .copyright {
   color: #333;
 }
 
-/* line 27, src/sass/components/_impact.scss */
+/* line 26, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--text {
+  font-weight: 700;
+}
+
+/* line 30, src/sass/components/_impact.scss */
 .swap-impact--container .impact-title .swap-title--subtext.hidden {
   display: none;
 }
 
-/* line 31, src/sass/components/_impact.scss */
+/* line 34, src/sass/components/_impact.scss */
 .swap-impact--container .impact-title .swap-title--icon {
   width: 45px;
   height: 45px;
@@ -1955,30 +1960,30 @@ footer .footer-bottom .copyright {
   background-position: center bottom;
 }
 
-/* line 40, src/sass/components/_impact.scss */
+/* line 43, src/sass/components/_impact.scss */
 .swap-impact--container .swap-summary {
   margin-bottom: 5px;
   line-height: 1.3;
 }
 
-/* line 43, src/sass/components/_impact.scss */
+/* line 46, src/sass/components/_impact.scss */
 .swap-impact--container .swap-summary .summary-result {
   font-weight: 600;
   color: #333;
 }
 
-/* line 49, src/sass/components/_impact.scss */
+/* line 52, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--details {
   padding-left: 3px;
   font-size: 1.3rem;
 }
 
-/* line 54, src/sass/components/_impact.scss */
+/* line 57, src/sass/components/_impact.scss */
 .swap-impact--container .hidden {
   display: none;
 }
 
-/* line 59, src/sass/components/_impact.scss */
+/* line 62, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--fact {
   position: relative;
   margin-top: 20px;
@@ -1988,18 +1993,23 @@ footer .footer-bottom .copyright {
   background: rgba(242, 171, 39, 0.2);
 }
 
-/* line 66, src/sass/components/_impact.scss */
+/* line 69, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--fact .source {
   padding-left: 1px;
   font-size: 1rem;
 }
 
-/* line 73, src/sass/components/_impact.scss */
+/* line 76, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe {
   margin-top: 30px;
 }
 
-/* line 76, src/sass/components/_impact.scss */
+/* line 78, src/sass/components/_impact.scss */
+.swap-impact--container .tooltip--recipe .tooltip--recipe-title {
+  font-weight: 700;
+}
+
+/* line 80, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-title .icon {
   margin-right: 10px;
   width: 45px;
@@ -2010,17 +2020,17 @@ footer .footer-bottom .copyright {
   background-position: center bottom;
 }
 
-/* line 86, src/sass/components/_impact.scss */
+/* line 90, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-detail {
   line-height: 1.3;
 }
 
-/* line 88, src/sass/components/_impact.scss */
+/* line 92, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-detail .recipe-source {
   margin-top: 5px;
 }
 
-/* line 96, src/sass/components/_impact.scss */
+/* line 100, src/sass/components/_impact.scss */
 .positive-impact .impact-title .swap-title--subtext {
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
@@ -2028,7 +2038,7 @@ footer .footer-bottom .copyright {
   color: #666;
 }
 
-/* line 103, src/sass/components/_impact.scss */
+/* line 107, src/sass/components/_impact.scss */
 .impact-footnote {
   position: relative;
   margin-top: 30px;
@@ -2036,17 +2046,17 @@ footer .footer-bottom .copyright {
   font-size: 1.3rem;
 }
 
-/* line 108, src/sass/components/_impact.scss */
+/* line 112, src/sass/components/_impact.scss */
 .impact-footnote .impact-footnote-source {
   font-size: 1rem;
 }
 
-/* line 111, src/sass/components/_impact.scss */
+/* line 115, src/sass/components/_impact.scss */
 .impact-footnote.hidden {
   display: none;
 }
 
-/* line 114, src/sass/components/_impact.scss */
+/* line 118, src/sass/components/_impact.scss */
 .impact-footnote:after {
   content: '*';
   display: block;
@@ -2457,11 +2467,12 @@ select.dropdown:disabled {
   margin-bottom: 10px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 2.3rem;
+  font-weight: 700;
   color: #333;
   border-bottom: 1px solid #333;
 }
 
-/* line 12, src/sass/components/_tooltip.scss */
+/* line 13, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--meal,
 #tooltip .tooltip--portion,
 #tooltip-swap-impact .tooltip--meal,
@@ -2473,7 +2484,7 @@ select.dropdown:disabled {
   font-size: 1.3rem;
 }
 
-/* line 18, src/sass/components/_tooltip.scss */
+/* line 19, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--foodprint-index,
 #tooltip-swap-impact .tooltip--foodprint-index,
 #tooltip-category .tooltip--foodprint-index {
@@ -2484,7 +2495,7 @@ select.dropdown:disabled {
   color: #333;
 }
 
-/* line 26, src/sass/components/_tooltip.scss */
+/* line 27, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail,
 #tooltip-swap-impact .tooltip--details .detail,
 #tooltip-category .tooltip--details .detail {
@@ -2493,7 +2504,7 @@ select.dropdown:disabled {
   line-height: 1.6;
 }
 
-/* line 30, src/sass/components/_tooltip.scss */
+/* line 31, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail span,
 #tooltip-swap-impact .tooltip--details .detail span,
 #tooltip-category .tooltip--details .detail span {
@@ -2501,7 +2512,7 @@ select.dropdown:disabled {
   color: #333;
 }
 
-/* line 34, src/sass/components/_tooltip.scss */
+/* line 35, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail sup,
 #tooltip .tooltip--details .detail sub,
 #tooltip-swap-impact .tooltip--details .detail sup,
@@ -2511,7 +2522,7 @@ select.dropdown:disabled {
   font-size: .6rem;
 }
 
-/* line 38, src/sass/components/_tooltip.scss */
+/* line 39, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail:before,
 #tooltip-swap-impact .tooltip--details .detail:before,
 #tooltip-category .tooltip--details .detail:before {
@@ -2525,42 +2536,42 @@ select.dropdown:disabled {
   border-radius: 50%;
 }
 
-/* line 48, src/sass/components/_tooltip.scss */
+/* line 49, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail.detail--land::before,
 #tooltip-swap-impact .tooltip--details .detail.detail--land::before,
 #tooltip-category .tooltip--details .detail.detail--land::before {
   background: #EC1C4B;
 }
 
-/* line 51, src/sass/components/_tooltip.scss */
+/* line 52, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail.detail--gas::before,
 #tooltip-swap-impact .tooltip--details .detail.detail--gas::before,
 #tooltip-category .tooltip--details .detail.detail--gas::before {
   background: #F16A43;
 }
 
-/* line 54, src/sass/components/_tooltip.scss */
+/* line 55, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail.detail--water::before,
 #tooltip-swap-impact .tooltip--details .detail.detail--water::before,
 #tooltip-category .tooltip--details .detail.detail--water::before {
   background: #56BFBF;
 }
 
-/* line 57, src/sass/components/_tooltip.scss */
+/* line 58, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail.detail--eutro::before,
 #tooltip-swap-impact .tooltip--details .detail.detail--eutro::before,
 #tooltip-category .tooltip--details .detail.detail--eutro::before {
   background: #A6206A;
 }
 
-/* line 60, src/sass/components/_tooltip.scss */
+/* line 61, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--details .detail.detail--cost::before,
 #tooltip-swap-impact .tooltip--details .detail.detail--cost::before,
 #tooltip-category .tooltip--details .detail.detail--cost::before {
   background: #BF7222;
 }
 
-/* line 70, src/sass/components/_tooltip.scss */
+/* line 71, src/sass/components/_tooltip.scss */
 #tooltip .close,
 #tooltip-swap-impact .close,
 #tooltip-category .close,
@@ -2580,7 +2591,7 @@ select.dropdown:disabled {
   transition: opacity 250ms ease;
 }
 
-/* line 83, src/sass/components/_tooltip.scss */
+/* line 84, src/sass/components/_tooltip.scss */
 #tooltip .close:hover, #tooltip .close:focus,
 #tooltip-swap-impact .close:hover,
 #tooltip-swap-impact .close:focus,
@@ -2591,7 +2602,7 @@ select.dropdown:disabled {
   opacity: 1;
 }
 
-/* line 90, src/sass/components/_tooltip.scss */
+/* line 91, src/sass/components/_tooltip.scss */
 #tooltip,
 #tooltip-swap-impact {
   position: relative;
@@ -2602,7 +2613,7 @@ select.dropdown:disabled {
   overflow: hidden;
 }
 
-/* line 98, src/sass/components/_tooltip.scss */
+/* line 99, src/sass/components/_tooltip.scss */
 #tooltip .tooltip--container,
 #tooltip-swap-impact .tooltip--container {
   position: static;
@@ -2610,7 +2621,7 @@ select.dropdown:disabled {
 }
 
 @media (max-width: 768px) {
-  /* line 90, src/sass/components/_tooltip.scss */
+  /* line 91, src/sass/components/_tooltip.scss */
   #tooltip,
   #tooltip-swap-impact {
     max-width: 500px;
@@ -2622,33 +2633,33 @@ select.dropdown:disabled {
     -webkit-box-shadow: 0px 1px 5px rgba(36, 36, 36, 0.5);
             box-shadow: 0px 1px 5px rgba(36, 36, 36, 0.5);
   }
-  /* line 110, src/sass/components/_tooltip.scss */
+  /* line 111, src/sass/components/_tooltip.scss */
   #tooltip.visible,
   #tooltip-swap-impact.visible {
     max-height: none !important;
   }
-  /* line 112, src/sass/components/_tooltip.scss */
+  /* line 113, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--header,
   #tooltip.visible .impact-title,
   #tooltip-swap-impact.visible .tooltip--header,
   #tooltip-swap-impact.visible .impact-title {
     position: relative;
   }
-  /* line 116, src/sass/components/_tooltip.scss */
+  /* line 117, src/sass/components/_tooltip.scss */
   #tooltip.visible .swap-title--text,
   #tooltip.visible .tooltip--ingredient,
   #tooltip-swap-impact.visible .swap-title--text,
   #tooltip-swap-impact.visible .tooltip--ingredient {
     margin-right: 25px;
   }
-  /* line 120, src/sass/components/_tooltip.scss */
+  /* line 121, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--ingredient,
   #tooltip.visible .swap-title--subtext,
   #tooltip-swap-impact.visible .tooltip--ingredient,
   #tooltip-swap-impact.visible .swap-title--subtext {
     margin-bottom: 20px;
   }
-  /* line 124, src/sass/components/_tooltip.scss */
+  /* line 125, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--toggle,
   #tooltip-swap-impact.visible .tooltip--toggle {
     position: absolute;
@@ -2660,7 +2671,7 @@ select.dropdown:disabled {
     border-radius: 50%;
     cursor: pointer;
   }
-  /* line 133, src/sass/components/_tooltip.scss */
+  /* line 134, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--toggle:before, #tooltip.visible .tooltip--toggle:after,
   #tooltip-swap-impact.visible .tooltip--toggle:before,
   #tooltip-swap-impact.visible .tooltip--toggle:after {
@@ -2675,19 +2686,19 @@ select.dropdown:disabled {
     -webkit-transition: all 250ms ease;
     transition: all 250ms ease;
   }
-  /* line 147, src/sass/components/_tooltip.scss */
+  /* line 148, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--toggle.closed:before,
   #tooltip-swap-impact.visible .tooltip--toggle.closed:before {
     -webkit-transform: translate(-50%, -50%) rotate(90deg);
             transform: translate(-50%, -50%) rotate(90deg);
   }
-  /* line 150, src/sass/components/_tooltip.scss */
+  /* line 151, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--toggle.closed:after,
   #tooltip-swap-impact.visible .tooltip--toggle.closed:after {
     -webkit-transform: translate(-50%, -50%) rotate(180deg);
             transform: translate(-50%, -50%) rotate(180deg);
   }
-  /* line 155, src/sass/components/_tooltip.scss */
+  /* line 156, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--content,
   #tooltip-swap-impact.visible .tooltip--content {
     overflow: hidden;
@@ -2697,7 +2708,7 @@ select.dropdown:disabled {
     -webkit-transition: max-height 250ms ease;
     transition: max-height 250ms ease;
   }
-  /* line 161, src/sass/components/_tooltip.scss */
+  /* line 162, src/sass/components/_tooltip.scss */
   #tooltip.visible .tooltip--content.close,
   #tooltip-swap-impact.visible .tooltip--content.close {
     max-height: 0;
@@ -2706,7 +2717,7 @@ select.dropdown:disabled {
   }
 }
 
-/* line 170, src/sass/components/_tooltip.scss */
+/* line 171, src/sass/components/_tooltip.scss */
 #tooltip {
   -webkit-transition: all 100ms ease-out;
   transition: all 100ms ease-out;
@@ -2714,7 +2725,7 @@ select.dropdown:disabled {
           transition-delay: 200ms;
 }
 
-/* line 173, src/sass/components/_tooltip.scss */
+/* line 174, src/sass/components/_tooltip.scss */
 #tooltip.visible {
   max-height: 500px;
   opacity: 1;
@@ -2723,13 +2734,13 @@ select.dropdown:disabled {
 }
 
 @media (max-width: 768px) {
-  /* line 173, src/sass/components/_tooltip.scss */
+  /* line 174, src/sass/components/_tooltip.scss */
   #tooltip.visible {
     margin-bottom: 30px;
   }
 }
 
-/* line 183, src/sass/components/_tooltip.scss */
+/* line 184, src/sass/components/_tooltip.scss */
 #tooltip-swap-impact.visible.show-content {
   max-height: 700px;
   opacity: 1;
@@ -2739,7 +2750,7 @@ select.dropdown:disabled {
           transition-delay: 400ms;
 }
 
-/* line 192, src/sass/components/_tooltip.scss */
+/* line 193, src/sass/components/_tooltip.scss */
 #tooltip-category {
   position: absolute;
   z-index: 100;
@@ -2748,7 +2759,7 @@ select.dropdown:disabled {
   left: -1000px;
 }
 
-/* line 198, src/sass/components/_tooltip.scss */
+/* line 199, src/sass/components/_tooltip.scss */
 #tooltip-category .tooltip--container {
   position: absolute;
   bottom: 0;
@@ -2763,61 +2774,61 @@ select.dropdown:disabled {
 }
 
 @media (max-width: 430px) {
-  /* line 198, src/sass/components/_tooltip.scss */
+  /* line 199, src/sass/components/_tooltip.scss */
   #tooltip-category .tooltip--container {
     left: -145px;
     width: 290px;
   }
 }
 
-/* line 216, src/sass/components/_tooltip.scss */
+/* line 217, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail {
   margin-bottom: 4px;
   font-weight: 600;
 }
 
-/* line 219, src/sass/components/_tooltip.scss */
+/* line 220, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.land {
   color: #EC1C4B;
 }
 
-/* line 220, src/sass/components/_tooltip.scss */
+/* line 221, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.gas {
   color: #F16A43;
 }
 
-/* line 221, src/sass/components/_tooltip.scss */
+/* line 222, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.water {
   color: #56BFBF;
 }
 
-/* line 222, src/sass/components/_tooltip.scss */
+/* line 223, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.eutro {
   color: #A6206A;
 }
 
-/* line 223, src/sass/components/_tooltip.scss */
+/* line 224, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.cost {
   color: #BF7222;
 }
 
-/* line 224, src/sass/components/_tooltip.scss */
+/* line 225, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.index {
   color: #C7B500;
 }
 
-/* line 225, src/sass/components/_tooltip.scss */
+/* line 226, src/sass/components/_tooltip.scss */
 #tooltip-category .category-title .category-detail.hidden {
   display: none;
 }
 
-/* line 232, src/sass/components/_tooltip.scss */
+/* line 233, src/sass/components/_tooltip.scss */
 #tooltip-category .tooltip--fact {
   font-size: 1.2rem;
   font-style: italic;
 }
 
-/* line 235, src/sass/components/_tooltip.scss */
+/* line 236, src/sass/components/_tooltip.scss */
 #tooltip-category .tooltip--fact.fact-index {
   display: block;
   padding-bottom: 40px;
@@ -2827,19 +2838,19 @@ select.dropdown:disabled {
   background-size: 300px auto;
 }
 
-/* line 242, src/sass/components/_tooltip.scss */
+/* line 243, src/sass/components/_tooltip.scss */
 #tooltip-category .tooltip--fact.fact-index span {
   display: block;
   margin: 1rem 0;
 }
 
-/* line 248, src/sass/components/_tooltip.scss */
+/* line 249, src/sass/components/_tooltip.scss */
 #tooltip-category .quote {
   position: relative;
   font-style: italic;
 }
 
-/* line 252, src/sass/components/_tooltip.scss */
+/* line 253, src/sass/components/_tooltip.scss */
 #tooltip-category sup {
   padding-left: 2px;
   font-size: 1rem;
