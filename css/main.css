@@ -1960,30 +1960,60 @@ footer .footer-bottom .copyright {
   background-position: center bottom;
 }
 
+/* line 40, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.shower {
+  background-image: url(../svg/shower.svg);
+}
+
+/* line 41, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.bath {
+  background-image: url(../svg/bath.svg);
+}
+
+/* line 42, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.tennis {
+  background-image: url(../svg/tennis.svg);
+}
+
 /* line 43, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.car {
+  background-image: url(../svg/car.svg);
+}
+
+/* line 44, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.piggy-bank {
+  background-image: url(../svg/piggy-bank.svg);
+}
+
+/* line 45, src/sass/components/_impact.scss */
+.swap-impact--container .impact-title .swap-title--icon.earth-sad {
+  background-image: url(../svg/earth-sad.svg);
+}
+
+/* line 49, src/sass/components/_impact.scss */
 .swap-impact--container .swap-summary {
   margin-bottom: 5px;
   line-height: 1.3;
 }
 
-/* line 46, src/sass/components/_impact.scss */
+/* line 52, src/sass/components/_impact.scss */
 .swap-impact--container .swap-summary .summary-result {
   font-weight: 600;
   color: #333;
 }
 
-/* line 52, src/sass/components/_impact.scss */
+/* line 58, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--details {
   padding-left: 3px;
   font-size: 1.3rem;
 }
 
-/* line 57, src/sass/components/_impact.scss */
+/* line 63, src/sass/components/_impact.scss */
 .swap-impact--container .hidden {
   display: none;
 }
 
-/* line 62, src/sass/components/_impact.scss */
+/* line 68, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--fact {
   position: relative;
   margin-top: 20px;
@@ -1993,23 +2023,23 @@ footer .footer-bottom .copyright {
   background: rgba(242, 171, 39, 0.2);
 }
 
-/* line 69, src/sass/components/_impact.scss */
+/* line 75, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--fact .source {
   padding-left: 1px;
   font-size: 1rem;
 }
 
-/* line 76, src/sass/components/_impact.scss */
+/* line 82, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe {
   margin-top: 30px;
 }
 
-/* line 78, src/sass/components/_impact.scss */
+/* line 84, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-title {
   font-weight: 700;
 }
 
-/* line 80, src/sass/components/_impact.scss */
+/* line 86, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-title .icon {
   margin-right: 10px;
   width: 45px;
@@ -2020,17 +2050,17 @@ footer .footer-bottom .copyright {
   background-position: center bottom;
 }
 
-/* line 90, src/sass/components/_impact.scss */
+/* line 96, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-detail {
   line-height: 1.3;
 }
 
-/* line 92, src/sass/components/_impact.scss */
+/* line 98, src/sass/components/_impact.scss */
 .swap-impact--container .tooltip--recipe .tooltip--recipe-detail .recipe-source {
   margin-top: 5px;
 }
 
-/* line 100, src/sass/components/_impact.scss */
+/* line 106, src/sass/components/_impact.scss */
 .positive-impact .impact-title .swap-title--subtext {
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
@@ -2038,7 +2068,7 @@ footer .footer-bottom .copyright {
   color: #666;
 }
 
-/* line 107, src/sass/components/_impact.scss */
+/* line 113, src/sass/components/_impact.scss */
 .impact-footnote {
   position: relative;
   margin-top: 30px;
@@ -2046,17 +2076,17 @@ footer .footer-bottom .copyright {
   font-size: 1.3rem;
 }
 
-/* line 112, src/sass/components/_impact.scss */
+/* line 118, src/sass/components/_impact.scss */
 .impact-footnote .impact-footnote-source {
   font-size: 1rem;
 }
 
-/* line 115, src/sass/components/_impact.scss */
+/* line 121, src/sass/components/_impact.scss */
 .impact-footnote.hidden {
   display: none;
 }
 
-/* line 118, src/sass/components/_impact.scss */
+/* line 124, src/sass/components/_impact.scss */
 .impact-footnote:after {
   content: '*';
   display: block;
